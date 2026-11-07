@@ -1,0 +1,77 @@
+Make a single-file interactive web app
+(HTML, CSS and JS) that loads
+Three.js from a CDN: a live 3D
+container port operations dashboard
+called "Tidegrid" for a fictional "Port
+Aurelia", built to feel like a strategy
+game.
+WORLD (the place)
+A bright isometric diorama. High-key
+lavender-white ground, soft shadows
+matte clay-like materials, royal-blue
+cranes, colourful containers, yellow
+bay lines, small round trees. A pale
+blue harbour along the front edge, a
+straight concrete quay with four
+berths (B1 to B4), a container yard of
+9 blocks stacked up to four high and
+colour-coded by carrier, a gate with
+truck lanes and booths, a rail terminal
+with two tracks, a reefer block, a
+control tower, light poles, and a
+breakwater with a lighthouse
+
+LIFE (the simulation)
+A simple scheduler runs the port.
+Container ships arrive from an
+anchorage, get a free berth, discharge
+and load, then leave. Quay cranes
+move boxes from ship to straddle
+carriers, yard cranes stack them
+trucks loop through the gate, a freight
+train loads at the rail terminal. Every
+vessel has a status (Inbound, Berthed
+Discharging, Loading, Departed), a
+progress percentage and an ETA. The
+clock is live and sped up.
+INTERACTION (the game feel)
+Orbit, pan and zoom with inertia.
+Hovering anything gives it a soft
+outline and a small label. Clicking a
+vessel, crane, container or truck
+selects it: glow ring, location pin, the
+camera eases in, the side panel fills.
+Speed buttons (1x, 4x, 16x). Click a
+free berth to assign the next inbound
+ship.
+
+DASHBOARD (the interface)
+Floating white glass cards with
+rounded corners and soft shadows
+Top bar with search, terminal selector
+a Live clock and alerts. KPI cards:
+berths in use, crane moves per hour,
+gate turn time. A panel for the
+selected vessel. A bottom vessel
+tracker (Arrived, Berthed, Discharging,
+Loading, Departed)
+EXTRAS (the wow)
+Day and night toggle with glowing
+crane lights and ship lights, water
+ripples and wakes, seagulls, a ripple
+ring when a vessel docks, and a
+one-button cinematic fly-through
+Everything in one HTML file, no build
+step, no external assets besides the
+Three.js CDN. Keep it at 60 fps.
+
+Swap one word
+Keep the five layers and change the
+world. Replace "container port" and the
+nouns in WORLD and LIFE:
+Airport: stands, taxiways, gates,
+baggage carts, aircraft pushing back.
+Factory: assembly lines, robot arms,
+forklifts, a shipping dock.
+Launch pad: launch tower, rocket, fuel
+trucks, a countdown.
